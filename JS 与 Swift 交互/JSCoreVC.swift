@@ -34,6 +34,12 @@ class JSCoreVC: UIViewController,UIWebViewDelegate {
         
         setupInit()
         
+        test()
+    }
+    
+    func test()
+    {
+        
     }
     
     func setupInit()
