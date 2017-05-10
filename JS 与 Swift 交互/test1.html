@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+       <title>学习HTML</title>
+       
+     <script>
+         
+     function btnClick(){
+         
+         alert("按钮点击")
+             
+        //调用OC函数获取图片路径    showImage(iosContext.getImagePath());
+    
+     }
+     
+     function showImage(path){
+        // 切换图片的路径
+        //1.找到image标签
+        document.getElementById("image1").src = path;
+     }
+
+     function choseImage(){
+        //选择手机相册的图片 .自定义协议进行跳转
+        // 协议+ID
+        window.location.href = "choseimage://image1"
+     }
+     
+     function add(a, b){
+         return a + b;
+     }
+     
+     function showLog(logText){
+         log(logText);
+     }
+     
+     function contextBtnClick()
+     {
+         alert("contextBtn点击了")
+         
+     }
+     
+     function JSExportBtnClick()
+     {
+         testFunc('hahahha')
+     }
+     
+     function ClickCallBack()
+     {
+         alert("HTML5已经点击了.....")
+         //这个是Swift的回调
+         JSCallBack()
+     }
+     
+     function JSCallBackWithArg()
+     {
+         alert("回调有参数已经点击成功.....")
+         JSCallBackWithArgument("名字","年龄","身高")
+     }
+     
+     function callModelFunc()
+     {
+      alert("已经点击---------------")
+      SwiftModel.getStrWithJS("我是参数我来了----")
+     
+     }
+     
+     </script>
+    </head>
+    
+    <body>
+        
+        <br>
+        <br>
+        <input type="button" value="快点我" onClick="btnClick()"/><br>
+        <img id="image1" src="http://img10.360buyimg.com/n6/jfs/t1708/192/1058514306/148007/5ef92aed/55dee467N512f8bae.jpg" width=400 height=400 onClick="choseImage()"/>
+        <br>
+        <input type = "button" value = "context 请点我" onClick = "contextBtnClick()"  width = "300" height = "150"/>
+  
+         <input type= "button" value = "JSExport 请点我" onClick = "JSExportBtnClick()" width = "300" height = "150"/>
+ 
+         <input type = "button" value = "JSCallBack没有参数" onClick ="ClickCallBack()" width = "300" height = "200"/>
+
+         <input type = "button" value = "JSCallBack有参数"  onClick = "JSCallBackWithArg()"  width = "300"  height = "150" />
+         <br>
+         <div >向JS注入模型-------------------</div>
+         
+         <input type = "button" value = "向JS注入模型" onClick = "callModelFunc()"   width = "300" height = "150"/>
+         
+         <input type = "button" value = "jsCallObjcAndObjcCallJsWithDict" onClick = "SwiftModel.jsCallObjcAndObjcCallJsWithDict({'name': 'testname', 'age': 10, 'height': 170})"   width = "300" height = "150"/>
+                     
+        
+    </body>
+</html>

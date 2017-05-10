@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4F6103F1D9BAE7F00BD61D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6103E1D9BAE7F00BD61D3 /* AppDelegate.swift */; };
+		C4F610411D9BAE7F00BD61D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F610401D9BAE7F00BD61D3 /* ViewController.swift */; };
+		C4F610441D9BAE7F00BD61D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F610421D9BAE7F00BD61D3 /* Main.storyboard */; };
+		C4F610461D9BAE8000BD61D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F610451D9BAE8000BD61D3 /* Assets.xcassets */; };
+		C4F610491D9BAE8000BD61D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F610471D9BAE8000BD61D3 /* LaunchScreen.storyboard */; };
+		C4F610541D9BAE8000BD61D3 /* JS___Swift___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F610531D9BAE8000BD61D3 /* JS___Swift___Tests.swift */; };
+		C4F6105F1D9BAE8000BD61D3 /* JS___Swift___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6105E1D9BAE8000BD61D3 /* JS___Swift___UITests.swift */; };
+		C4F6106E1D9BB2AA00BD61D3 /* JSAndOCInterceptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6106C1D9BB2AA00BD61D3 /* JSAndOCInterceptVC.swift */; };
+		C4F6106F1D9BB2AA00BD61D3 /* JSAndOCInterceptVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F6106D1D9BB2AA00BD61D3 /* JSAndOCInterceptVC.xib */; };
+		C4F610761D9BB36100BD61D3 /* JSCoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F610741D9BB36100BD61D3 /* JSCoreVC.swift */; };
+		C4F610771D9BB36200BD61D3 /* JSCoreVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F610751D9BB36100BD61D3 /* JSCoreVC.xib */; };
+		C4F6107A1D9BB38600BD61D3 /* JSExportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F610781D9BB38600BD61D3 /* JSExportVC.swift */; };
+		C4F6107B1D9BB38600BD61D3 /* JSExportVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F610791D9BB38600BD61D3 /* JSExportVC.xib */; };
+		C4F6107D1D9BB63400BD61D3 /* test1.html in Resources */ = {isa = PBXBuildFile; fileRef = C4F6107C1D9BB63400BD61D3 /* test1.html */; };
+		C4F610801D9BB63C00BD61D3 /* meinv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4F6107E1D9BB63C00BD61D3 /* meinv.jpg */; };
+		C4F610811D9BB63C00BD61D3 /* baiqi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4F6107F1D9BB63C00BD61D3 /* baiqi.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4F610501D9BAE8000BD61D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F610331D9BAE7F00BD61D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F6103A1D9BAE7F00BD61D3;
+			remoteInfo = "JS 与 Swift 交互";
+		};
+		C4F6105B1D9BAE8000BD61D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F610331D9BAE7F00BD61D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F6103A1D9BAE7F00BD61D3;
+			remoteInfo = "JS 与 Swift 交互";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4F6103B1D9BAE7F00BD61D3 /* JS 与 Swift 交互.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JS 与 Swift 交互.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F6103E1D9BAE7F00BD61D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4F610401D9BAE7F00BD61D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4F610431D9BAE7F00BD61D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4F610451D9BAE8000BD61D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4F610481D9BAE8000BD61D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4F6104A1D9BAE8000BD61D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F6104F1D9BAE8000BD61D3 /* JS 与 Swift 交互Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JS 与 Swift 交互Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F610531D9BAE8000BD61D3 /* JS___Swift___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JS___Swift___Tests.swift"; sourceTree = "<group>"; };
+		C4F610551D9BAE8000BD61D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F6105A1D9BAE8000BD61D3 /* JS 与 Swift 交互UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JS 与 Swift 交互UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F6105E1D9BAE8000BD61D3 /* JS___Swift___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JS___Swift___UITests.swift"; sourceTree = "<group>"; };
+		C4F610601D9BAE8000BD61D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F6106C1D9BB2AA00BD61D3 /* JSAndOCInterceptVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSAndOCInterceptVC.swift; sourceTree = "<group>"; };
+		C4F6106D1D9BB2AA00BD61D3 /* JSAndOCInterceptVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSAndOCInterceptVC.xib; sourceTree = "<group>"; };
+		C4F610741D9BB36100BD61D3 /* JSCoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCoreVC.swift; sourceTree = "<group>"; };
+		C4F610751D9BB36100BD61D3 /* JSCoreVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCoreVC.xib; sourceTree = "<group>"; };
+		C4F610781D9BB38600BD61D3 /* JSExportVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSExportVC.swift; sourceTree = "<group>"; };
+		C4F610791D9BB38600BD61D3 /* JSExportVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSExportVC.xib; sourceTree = "<group>"; };
+		C4F6107C1D9BB63400BD61D3 /* test1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test1.html; sourceTree = "<group>"; };
+		C4F6107E1D9BB63C00BD61D3 /* meinv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meinv.jpg; sourceTree = "<group>"; };
+		C4F6107F1D9BB63C00BD61D3 /* baiqi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baiqi.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4F610381D9BAE7F00BD61D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F6104C1D9BAE8000BD61D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F610571D9BAE8000BD61D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4F610321D9BAE7F00BD61D3 = {
+			isa = PBXGroup;
+			children = (
+				C4F6103D1D9BAE7F00BD61D3 /* JS 与 Swift 交互 */,
+				C4F610521D9BAE8000BD61D3 /* JS 与 Swift 交互Tests */,
+				C4F6105D1D9BAE8000BD61D3 /* JS 与 Swift 交互UITests */,
+				C4F6103C1D9BAE7F00BD61D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4F6103C1D9BAE7F00BD61D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4F6103B1D9BAE7F00BD61D3 /* JS 与 Swift 交互.app */,
+				C4F6104F1D9BAE8000BD61D3 /* JS 与 Swift 交互Tests.xctest */,
+				C4F6105A1D9BAE8000BD61D3 /* JS 与 Swift 交互UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4F6103D1D9BAE7F00BD61D3 /* JS 与 Swift 交互 */ = {
+			isa = PBXGroup;
+			children = (
+				C4F6103E1D9BAE7F00BD61D3 /* AppDelegate.swift */,
+				C4F610401D9BAE7F00BD61D3 /* ViewController.swift */,
+				C4F610741D9BB36100BD61D3 /* JSCoreVC.swift */,
+				C4F610751D9BB36100BD61D3 /* JSCoreVC.xib */,
+				C4F6106C1D9BB2AA00BD61D3 /* JSAndOCInterceptVC.swift */,
+				C4F6106D1D9BB2AA00BD61D3 /* JSAndOCInterceptVC.xib */,
+				C4F610781D9BB38600BD61D3 /* JSExportVC.swift */,
+				C4F610791D9BB38600BD61D3 /* JSExportVC.xib */,
+				C4F6107C1D9BB63400BD61D3 /* test1.html */,
+				C4F6107E1D9BB63C00BD61D3 /* meinv.jpg */,
+				C4F6107F1D9BB63C00BD61D3 /* baiqi.jpg */,
+				C4F610421D9BAE7F00BD61D3 /* Main.storyboard */,
+				C4F610451D9BAE8000BD61D3 /* Assets.xcassets */,
+				C4F610471D9BAE8000BD61D3 /* LaunchScreen.storyboard */,
+				C4F6104A1D9BAE8000BD61D3 /* Info.plist */,
+			);
+			path = "JS 与 Swift 交互";
+			sourceTree = "<group>";
+		};
+		C4F610521D9BAE8000BD61D3 /* JS 与 Swift 交互Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F610531D9BAE8000BD61D3 /* JS___Swift___Tests.swift */,
+				C4F610551D9BAE8000BD61D3 /* Info.plist */,
+			);
+			path = "JS 与 Swift 交互Tests";
+			sourceTree = "<group>";
+		};
+		C4F6105D1D9BAE8000BD61D3 /* JS 与 Swift 交互UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F6105E1D9BAE8000BD61D3 /* JS___Swift___UITests.swift */,
+				C4F610601D9BAE8000BD61D3 /* Info.plist */,
+			);
+			path = "JS 与 Swift 交互UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4F6103A1D9BAE7F00BD61D3 /* JS 与 Swift 交互 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F610631D9BAE8000BD61D3 /* Build configuration list for PBXNativeTarget "JS 与 Swift 交互" */;
+			buildPhases = (
+				C4F610371D9BAE7F00BD61D3 /* Sources */,
+				C4F610381D9BAE7F00BD61D3 /* Frameworks */,
+				C4F610391D9BAE7F00BD61D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JS 与 Swift 交互";
+			productName = "JS 与 Swift 交互";
+			productReference = C4F6103B1D9BAE7F00BD61D3 /* JS 与 Swift 交互.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4F6104E1D9BAE8000BD61D3 /* JS 与 Swift 交互Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F610661D9BAE8000BD61D3 /* Build configuration list for PBXNativeTarget "JS 与 Swift 交互Tests" */;
+			buildPhases = (
+				C4F6104B1D9BAE8000BD61D3 /* Sources */,
+				C4F6104C1D9BAE8000BD61D3 /* Frameworks */,
+				C4F6104D1D9BAE8000BD61D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F610511D9BAE8000BD61D3 /* PBXTargetDependency */,
+			);
+			name = "JS 与 Swift 交互Tests";
+			productName = "JS 与 Swift 交互Tests";
+			productReference = C4F6104F1D9BAE8000BD61D3 /* JS 与 Swift 交互Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4F610591D9BAE8000BD61D3 /* JS 与 Swift 交互UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F610691D9BAE8000BD61D3 /* Build configuration list for PBXNativeTarget "JS 与 Swift 交互UITests" */;
+			buildPhases = (
+				C4F610561D9BAE8000BD61D3 /* Sources */,
+				C4F610571D9BAE8000BD61D3 /* Frameworks */,
+				C4F610581D9BAE8000BD61D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F6105C1D9BAE8000BD61D3 /* PBXTargetDependency */,
+			);
+			name = "JS 与 Swift 交互UITests";
+			productName = "JS 与 Swift 交互UITests";
+			productReference = C4F6105A1D9BAE8000BD61D3 /* JS 与 Swift 交互UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4F610331D9BAE7F00BD61D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = QuanQuan;
+				TargetAttributes = {
+					C4F6103A1D9BAE7F00BD61D3 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
+					};
+					C4F6104E1D9BAE8000BD61D3 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
+						TestTargetID = C4F6103A1D9BAE7F00BD61D3;
+					};
+					C4F610591D9BAE8000BD61D3 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
+						TestTargetID = C4F6103A1D9BAE7F00BD61D3;
+					};
+				};
+			};
+			buildConfigurationList = C4F610361D9BAE7F00BD61D3 /* Build configuration list for PBXProject "JS 与 Swift 交互" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4F610321D9BAE7F00BD61D3;
+			productRefGroup = C4F6103C1D9BAE7F00BD61D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4F6103A1D9BAE7F00BD61D3 /* JS 与 Swift 交互 */,
+				C4F6104E1D9BAE8000BD61D3 /* JS 与 Swift 交互Tests */,
+				C4F610591D9BAE8000BD61D3 /* JS 与 Swift 交互UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4F610391D9BAE7F00BD61D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F610811D9BB63C00BD61D3 /* baiqi.jpg in Resources */,
+				C4F6106F1D9BB2AA00BD61D3 /* JSAndOCInterceptVC.xib in Resources */,
+				C4F610491D9BAE8000BD61D3 /* LaunchScreen.storyboard in Resources */,
+				C4F610461D9BAE8000BD61D3 /* Assets.xcassets in Resources */,
+				C4F6107D1D9BB63400BD61D3 /* test1.html in Resources */,
+				C4F6107B1D9BB38600BD61D3 /* JSExportVC.xib in Resources */,
+				C4F610441D9BAE7F00BD61D3 /* Main.storyboard in Resources */,
+				C4F610771D9BB36200BD61D3 /* JSCoreVC.xib in Resources */,
+				C4F610801D9BB63C00BD61D3 /* meinv.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F6104D1D9BAE8000BD61D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F610581D9BAE8000BD61D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4F610371D9BAE7F00BD61D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F610761D9BB36100BD61D3 /* JSCoreVC.swift in Sources */,
+				C4F6107A1D9BB38600BD61D3 /* JSExportVC.swift in Sources */,
+				C4F610411D9BAE7F00BD61D3 /* ViewController.swift in Sources */,
+				C4F6106E1D9BB2AA00BD61D3 /* JSAndOCInterceptVC.swift in Sources */,
+				C4F6103F1D9BAE7F00BD61D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F6104B1D9BAE8000BD61D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F610541D9BAE8000BD61D3 /* JS___Swift___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F610561D9BAE8000BD61D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F6105F1D9BAE8000BD61D3 /* JS___Swift___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4F610511D9BAE8000BD61D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F6103A1D9BAE7F00BD61D3 /* JS 与 Swift 交互 */;
+			targetProxy = C4F610501D9BAE8000BD61D3 /* PBXContainerItemProxy */;
+		};
+		C4F6105C1D9BAE8000BD61D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F6103A1D9BAE7F00BD61D3 /* JS 与 Swift 交互 */;
+			targetProxy = C4F6105B1D9BAE8000BD61D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4F610421D9BAE7F00BD61D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F610431D9BAE7F00BD61D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4F610471D9BAE8000BD61D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F610481D9BAE8000BD61D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4F610611D9BAE8000BD61D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4F610621D9BAE8000BD61D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4F610641D9BAE8000BD61D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JS 与 Swift 交互/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quanquaner.JS---Swift---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C4F610651D9BAE8000BD61D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JS 与 Swift 交互/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quanquaner.JS---Swift---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C4F610671D9BAE8000BD61D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JS 与 Swift 交互Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quanquaner.JS---Swift---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JS 与 Swift 交互.app/JS 与 Swift 交互";
+			};
+			name = Debug;
+		};
+		C4F610681D9BAE8000BD61D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JS 与 Swift 交互Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quanquaner.JS---Swift---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JS 与 Swift 交互.app/JS 与 Swift 交互";
+			};
+			name = Release;
+		};
+		C4F6106A1D9BAE8000BD61D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JS 与 Swift 交互UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quanquaner.JS---Swift---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "JS 与 Swift 交互";
+			};
+			name = Debug;
+		};
+		C4F6106B1D9BAE8000BD61D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JS 与 Swift 交互UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quanquaner.JS---Swift---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "JS 与 Swift 交互";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4F610361D9BAE7F00BD61D3 /* Build configuration list for PBXProject "JS 与 Swift 交互" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F610611D9BAE8000BD61D3 /* Debug */,
+				C4F610621D9BAE8000BD61D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F610631D9BAE8000BD61D3 /* Build configuration list for PBXNativeTarget "JS 与 Swift 交互" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F610641D9BAE8000BD61D3 /* Debug */,
+				C4F610651D9BAE8000BD61D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F610661D9BAE8000BD61D3 /* Build configuration list for PBXNativeTarget "JS 与 Swift 交互Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F610671D9BAE8000BD61D3 /* Debug */,
+				C4F610681D9BAE8000BD61D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F610691D9BAE8000BD61D3 /* Build configuration list for PBXNativeTarget "JS 与 Swift 交互UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F6106A1D9BAE8000BD61D3 /* Debug */,
+				C4F6106B1D9BAE8000BD61D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4F610331D9BAE7F00BD61D3 /* Project object */;
+}
